@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/kodekage/banking/app"
-	"github.com/kodekage/banking/logger"
+	"github.com/kodekage/banking/cmd"
+	"github.com/kodekage/banking/internal/logger"
 )
 
 func main() {
 	logger.Info("Starting application")
-	app.StartServer()
+	cmd.StartServer()
 }
